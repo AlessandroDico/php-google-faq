@@ -104,7 +104,25 @@ $faq = [
                     </div>
                 </div>
                 <div class="header-bottom">
-
+                    <div class="header-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Introduzione</a>
+                            </li>
+                            <li>
+                                <a href="#">Norme sulla privacy</a>
+                            </li>
+                            <li>
+                                <a href="#">Termini di servizio</a>
+                            </li>
+                            <li>
+                                <a href="#">Tecnologie</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active">Domande frequenti</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
