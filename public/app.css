@@ -18,7 +18,7 @@ h2 {
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
-  padding: 64px 0 0 0;
+  padding: 60px 0 0 0;
 }
 
 p {
@@ -37,5 +37,60 @@ p {
 
 .container-full-width {
   padding: 0 20px;
+}
+
+h1 {
+  font-size: 22px;
+  color: #5f6368;
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-top .header-top-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top .header-top-left .logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top .header-top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top .header-top-right .app-google {
+  margin: 0 20px;
+  color: #5f6368;
+  font-size: 25px;
+}
+
+.header-top .header-top-right .user-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  color: #fff;
 }
 

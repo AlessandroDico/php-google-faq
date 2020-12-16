@@ -81,22 +81,31 @@ $faq = [
         <!-- google-fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     </head>
     <body>
         <header>
             <div class="container-full-width">
                 <div class="header-top">
                     <div class="header-top-left">
-
+                        <div class="logo-container">
+                            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google-logo">
+                        </div>
+                        <h1>Privacy e termini</h1>
                     </div>
                     <div class="header-top-right">
-
+                        <div class="app-google">
+                            <i class="fas fa-th"></i>
+                        </div>
+                        <div class="user-img">
+                            A
+                        </div>
                     </div>
                 </div>
                 <div class="header-bottom">
 
                 </div>
-                <h1>header</h1>
             </div>
         </header>
         <main>

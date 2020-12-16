@@ -18,12 +18,12 @@ h2 {
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
-    padding: 64px 0 0 0;
+    padding: $mainSpace*2 0 0 0;
 }
 
 p {
     color: $secondaryColor;
-    margin-top: 30px;
+    margin-top: $mainSpace;
     font-size: 14px;
     letter-spacing: 0.2px;
     line-height: 24px;

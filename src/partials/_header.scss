@@ -1,0 +1,35 @@
+h1 {
+    font-size: 22px;
+    color: $headerTextColor;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.header-top {
+    @include displayFlex(row, space-between, center);
+    padding: 20px;
+    .header-top-left {
+        @include displayFlex(row, center, center);
+        .logo-container {
+            @include displayFlex(row, center, center);
+        }
+    }
+    .header-top-right {
+        @include displayFlex(row, center, center);
+
+        .app-google {
+            margin: 0 20px;
+            color: $headerTextColor;
+            font-size: 25px;
+        }
+        .user-img {
+            @include displayFlex(row, center, center);
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: cadetblue;
+            color: #fff;
+        }
+    }
+}
