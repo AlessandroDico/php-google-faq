@@ -46,7 +46,6 @@ p {
 }
 
 header {
-  padding: 7px;
   border-bottom: 1px solid #5f6368;
 }
 
@@ -119,6 +118,7 @@ h1 {
 .header-bottom ul li a {
   color: #5f6368;
   padding: 5px;
+  display: inline-block;
 }
 
 .header-bottom ul li a.active {

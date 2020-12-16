@@ -1,5 +1,4 @@
 header {
-    padding: 7px;
     border-bottom: 1px solid $headerTextColor;
 }
 
@@ -47,6 +46,7 @@ h1 {
             a {
                 color: $headerTextColor;
                 padding: 5px;
+                display: inline-block;
 
                 &.active {
                     color: $linkColor;
