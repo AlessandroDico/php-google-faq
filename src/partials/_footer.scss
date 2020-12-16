@@ -1,0 +1,31 @@
+footer {
+    background-color: #f5f5f5;
+    .footer-container {
+        @include displayFlex(row, space-between, center);
+
+    }
+    .footer-left {
+        ul {
+            @include displayFlex(row, center, center);
+            li {
+                margin: 15px 5px;
+                a {
+                    padding: 5px;
+                    font-size: 11px;
+                    color: rgba(61,61,61,.8);
+                }
+            }
+        }
+
+    }
+    .footer-right {
+        @include displayFlex(row, center, center);
+        .footer-icon-container {
+            margin: 0 10px;
+            @include displayFlex(row, center, center);
+        }
+        .footer-lang-select {
+            padding-right: 60px;
+        }
+    }
+}
