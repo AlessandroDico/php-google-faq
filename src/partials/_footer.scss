@@ -8,12 +8,17 @@ footer {
         ul {
             @include displayFlex(row, center, center);
             li {
-                margin: 15px 5px;
+                margin: 15px 0;
                 a {
                     padding: 5px;
                     font-size: 11px;
                     color: rgba(61,61,61,.8);
                 }
+                &:not(:first-child):before {
+                content: "\0000b7";
+                padding: 0 5px;
+                vertical-align: middle;
+            }
             }
         }
 

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -143,13 +145,19 @@ footer .footer-left ul {
 }
 
 footer .footer-left ul li {
-  margin: 15px 5px;
+  margin: 15px 0;
 }
 
 footer .footer-left ul li a {
   padding: 5px;
   font-size: 11px;
   color: rgba(61, 61, 61, 0.8);
+}
+
+footer .footer-left ul li:not(:first-child):before {
+  content: "\B7";
+  padding: 0 5px;
+  vertical-align: middle;
 }
 
 footer .footer-right {
