@@ -60,16 +60,16 @@ $faq = [
 
 // var_dump($faq);
 
-foreach ($faq as $key => $question) {
-// var_dump($question);
-    foreach ($question as $j => $answer) {
-        echo $j;
-        echo '<br>';
-        echo $answer['risposta'];
-        echo '<br>';
-
-    }
-}
+// foreach ($faq as $key => $question) {
+// // var_dump($question);
+//     foreach ($question as $j => $answer) {
+//         echo $j;
+//         echo '<br>';
+//         echo $answer['risposta'];
+//         echo '<br>';
+//
+//     }
+// }
 
 ?>
 <!DOCTYPE html>
@@ -77,13 +77,28 @@ foreach ($faq as $key => $question) {
     <head>
         <meta charset="utf-8">
         <title>Google Faq</title>
+        <link rel="stylesheet" href="public/app.css">
     </head>
     <body>
         <header>
-
+            <div class="container">
+                <h1>header</h1>
+            </div>
         </header>
         <main>
+            <div class="container">
+                <h2>
+                    <?php foreach ($faq as $key => $question) {  ?>
+                        <?php foreach ($question as $j => $answer) {
+                        echo $j; ?>
+                </h2>
+                <p>
+                    <?php echo $answer['risposta'];
+                    }
+                    }?>
 
+                </p>
+            </div>
         </main>
     </body>
 </html>
